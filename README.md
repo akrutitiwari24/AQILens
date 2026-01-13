@@ -1,57 +1,63 @@
 # AQILens
 
-**Delhi Pollution Source Attribution Map**
+**Delhi Pollution Source Attribution Map**  
 
-AQILens is a web app that visualizes air pollution in Delhi using satellite indicators, AQI data, and simple attribution logic to show dominant pollution sources in each zone.
+AQILens is an interactive web app that visualizes air pollution in Delhi. Using local AQI data, GeoJSON zones, and simulated indicators, it identifies dominant pollution sources in each zone and provides confidence scores along with recommended actions.
 
-This project was created as a lightweight, interactive visualization for understanding why different areas of Delhi are polluted and what actions to take.
-
-
----
-
-## Overview
-
-AQILens shows an interactive map of Delhi zones and:
-
-- Highlights zones by dominant pollution source
-- Displays pollution attribution per zone
-- Shows confidence scores via visual bars
-- Offers suggested actions based on dominant source (planned future enhancement)
-- Uses data from local CSV and GeoJSON files
-- No external APIs needed
+This lightweight tool helps users understand **why different areas of Delhi are polluted** and what practical steps can be taken to reduce exposure.
 
 ---
 
-## How to Run Locally
+## Features
 
-AQILens is a **static web project** (HTML, CSS, JS) and can be served using any simple static server.
+- Interactive map of Delhi zones  
+- Zones colored by **dominant pollution source**  
+- Visual **confidence bars** for primary and secondary sources  
+- **Recommended actions** based on the dominant source  
+- Works entirely with **local CSV and GeoJSON files** (no external APIs needed)  
+- Fully client-side and lightweight  
 
+---
 
-If you have Python installed:
+## Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Map library:** [Leaflet.js](https://leafletjs.com/)  
+- **Data:** Local CSV files & GeoJSON files  
+
+---
+
+## 🚀 How to Run Locally
+
+**Clone the repository** (if not done already):
 
 ```bash
-cd frontend
+git clone https://github.com/akrutitiwari24/AQILens.git
+cd AQILens/frontend
+```
+
+Start a simple HTTP server using Python:
+
+```bash
+# For Python 3
 python3 -m http.server 8000
+```
 
-Then open your browser and go to:
+Open your browser and go to:
 
-http://localhost:8000
-
-
-Data Sources
-
-Delhi zone boundaries in GeoJSON format
-Historical AQI / PM2.5 data in CSV
-Simulated satellite indicators
-Source attribution CSV linking zones to scores
-
-All data is stored locally in the data/ folder — no external APIs.
-
-
----
-
-1. Commit to your local repo:
 ```bash
-git add README.md
-git commit -m "Add detailed README"
-git push
+http://localhost:8000
+```
+
+The map should load with Delhi zones, colored by dominant pollution source. Click a zone to see attribution and confidence bars.
+
+Future Enhancements
+
+Add real-time AQI updates using satellite or sensor APIs
+Integrate health advisories for sensitive populations
+Allow filtering by pollutant type or month
+Mobile-friendly responsive design
+
+License
+
+MIT License – feel free to explore and modify.
