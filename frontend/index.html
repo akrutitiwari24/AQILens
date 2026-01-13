@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Delhi Pollution Source Attribution</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Side Info Panel -->
+    <div id="info">
+      <h2 id="zone-name">Pollution Source Attribution</h2>
+      <p id="zone-desc">Click a zone on the map to view details.</p>
+
+      <hr />
+
+      <div class="section">
+        <strong>Primary Source</strong>
+        <div id="primary-source">—</div>
+        <div class="bar">
+          <div id="primary-bar" class="fill"></div>
+        </div>
+        <div id="primary-confidence"></div>
+      </div>
+
+      <div class="section">
+        <strong>Secondary Source</strong>
+        <div id="secondary-source">—</div>
+        <div class="bar">
+          <div id="secondary-bar" class="fill secondary"></div>
+        </div>
+        <div id="secondary-confidence"></div>
+      </div>
+
+      <hr />
+
+      <h3>Recommended Actions</h3>
+      <ul id="advisory-list"></ul>
+
+    </div>
+  </div>
+
+  <!-- Legend -->
+  <div id="legend">
+    <h3>Legend</h3>
+    <p><span style="background:#e74c3c" class="legend-box"></span> Traffic</p>
+    <p><span style="background:#f39c12" class="legend-box"></span> Dust</p>
+    <p><span style="background:#3498db" class="legend-box"></span> Industry</p>
+    <p><span style="background:#2ecc71" class="legend-box"></span> Biomass</p>
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Your JS -->
+  <script src="script.js"></script>
+</body>
+</html>

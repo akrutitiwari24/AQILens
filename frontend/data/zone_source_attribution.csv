@@ -1,0 +1,68 @@
+Zone,Primary_Source,Primary_Confidence,Secondary_Source,Secondary_Confidence
+NARELA,Traffic_Score,55,Dust_Score,45
+BURARI,Traffic_Score,60,Dust_Score,40
+TIMARPUR,Traffic_Score,70,Dust_Score,30
+ADARSH NAGAR,Traffic_Score,65,Dust_Score,35
+BADLI,Industry_Score,60,Dust_Score,40
+RITHALA,Industry_Score,65,Traffic_Score,35
+BAWANA,Industry_Score,75,Dust_Score,25
+MUNDKA,Dust_Score,70,Industry_Score,30
+KIRARI,Dust_Score,65,Traffic_Score,35
+SULTAN PUR MAJRA,Dust_Score,70,Traffic_Score,30
+NANGLOI JAT,Dust_Score,65,Industry_Score,35
+MANGOL PURI,Dust_Score,60,Traffic_Score,40
+ROHINI,Traffic_Score,70,Dust_Score,30
+SHAKUR BASTI,Traffic_Score,65,Industry_Score,35
+TRI NAGAR,Traffic_Score,70,Dust_Score,30
+WAZIRPUR,Industry_Score,70,Traffic_Score,30
+MODEL TOWN,Traffic_Score,75,Dust_Score,25
+SADAR BAZAR,Traffic_Score,80,Dust_Score,20
+CHANDNI CHOWK,Traffic_Score,85,Dust_Score,15
+MATIA MAHAL,Traffic_Score,80,Dust_Score,20
+BALLIMARAN,Traffic_Score,80,Dust_Score,20
+KAROL BAGH,Traffic_Score,85,Dust_Score,15
+PATEL NAGAR,Traffic_Score,75,Dust_Score,25
+MOTI NAGAR,Traffic_Score,70,Industry_Score,30
+MADIPUR,Dust_Score,65,Traffic_Score,35
+RAJOURI GARDEN,Traffic_Score,75,Dust_Score,25
+HARI NAGAR,Traffic_Score,70,Dust_Score,30
+TILAK NAGAR,Traffic_Score,70,Dust_Score,30
+JANAKPURI,Traffic_Score,75,Dust_Score,25
+VIKASPURI,Traffic_Score,70,Dust_Score,30
+UTTAM NAGAR,Dust_Score,65,Traffic_Score,35
+DWARKA,Traffic_Score,70,Dust_Score,30
+MATIALA,Dust_Score,60,Biomass_Score,40
+NAJAFGARH,Biomass_Score,65,Dust_Score,35
+BIJWASAN,Biomass_Score,70,Dust_Score,30
+PALAM,Traffic_Score,70,Dust_Score,30
+DELHI CANTT,Traffic_Score,65,Dust_Score,35
+RAJINDER NAGAR,Traffic_Score,75,Dust_Score,25
+NEW DELHI,Traffic_Score,80,Dust_Score,20
+JANGPURA,Traffic_Score,75,Dust_Score,25
+KASTURBA NAGAR,Traffic_Score,75,Dust_Score,25
+MALVIYA NAGAR,Traffic_Score,70,Dust_Score,30
+RK PURAM,Traffic_Score,70,Dust_Score,30
+MEHRAULI,Dust_Score,65,Traffic_Score,35
+CHHATARPUR,Dust_Score,70,Traffic_Score,30
+DEOLI,Dust_Score,60,Biomass_Score,40
+AMBEDKAR NAGAR,Dust_Score,65,Traffic_Score,35
+SANGAM VIHAR,Dust_Score,70,Biomass_Score,30
+GREATER KAILASH,Traffic_Score,75,Dust_Score,25
+KALKAJI,Traffic_Score,70,Dust_Score,30
+TUGHLAKABAD,Dust_Score,65,Industry_Score,35
+BADARPUR,Industry_Score,70,Dust_Score,30
+OKHLA,Industry_Score,75,Dust_Score,25
+TRILOKPURI,Traffic_Score,65,Dust_Score,35
+KONDLI,Traffic_Score,60,Dust_Score,40
+PATPARGANJ,Traffic_Score,70,Dust_Score,30
+LAXMI NAGAR,Traffic_Score,75,Dust_Score,25
+VISHWAS NAGAR,Traffic_Score,70,Dust_Score,30
+KRISHNA NAGAR,Traffic_Score,70,Dust_Score,30
+GANDHI NAGAR,Industry_Score,70,Traffic_Score,30
+SHAHDARA,Traffic_Score,65,Industry_Score,35
+SEELAMPUR,Traffic_Score,60,Industry_Score,40
+GHONDA,Traffic_Score,65,Dust_Score,35
+BABARPUR,Traffic_Score,70,Dust_Score,30
+GOKALPUR,Dust_Score,65,Biomass_Score,35
+MUSTAFABAD,Dust_Score,70,Biomass_Score,30
+KARAWAL NAGAR,Biomass_Score,75,Dust_Score,25
