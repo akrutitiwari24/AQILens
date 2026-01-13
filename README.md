@@ -51,13 +51,3 @@ http://localhost:8000
 
 The map should load with Delhi zones, colored by dominant pollution source. Click a zone to see attribution and confidence bars.
 
-Future Enhancements
-
-Add real-time AQI updates using satellite or sensor APIs
-Integrate health advisories for sensitive populations
-Allow filtering by pollutant type or month
-Mobile-friendly responsive design
-
-License
-
-MIT License – feel free to explore and modify.
